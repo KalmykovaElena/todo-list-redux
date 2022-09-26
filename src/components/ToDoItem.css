@@ -1,0 +1,60 @@
+.toDoItem {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid darkslategrey;
+    margin-top: .5rem;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    padding: 3px;
+    hyphens: auto;
+    position: relative;
+    background-color:#1a5781de;
+    word-break: break-all;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.toDoItem textarea {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 2rem;
+    height: 100px;
+    resize: none;
+    z-index: 3;
+}
+img{
+    border-radius: 15px;
+}
+
+.editButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 4;
+}
+.toDoItem-controls{
+    display: flex;
+    height:30px;
+}
+.toDoItem-done{
+    text-decoration: line-through;
+}
+.toDoItem-controls button img{
+    width:30px;
+
+}
+.check{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background-color: hsl(214deg 82% 51%);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    flex-shrink: 0;
+}
